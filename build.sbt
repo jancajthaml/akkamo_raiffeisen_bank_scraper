@@ -1,11 +1,11 @@
 version := "1.0"
 
-description := "Raiffeisen Bank scraper"
+description := "RaiffeisenBank scraper"
 
 scalaVersion in Global := "2.11.8"
 
 lazy val root = (project in file(".")).settings(
-  name := "raiffeisen-scraper",
+  name := "raiffeisenbank-scraper",
   mainClass in Compile := Some("eu.akkamo.Main"),
   libraryDependencies ++= Seq(
     "eu.akkamo" %% "akkamo" % "1.0.2"
